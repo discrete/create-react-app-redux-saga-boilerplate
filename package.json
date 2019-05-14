@@ -11,24 +11,24 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "material-ui": "^0.20.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "^1.1.1",
-    "react-tap-event-plugin": "^3.0.2",
-    "redux": "^3.6.0",
-    "redux-form": "^7.3.0",
-    "redux-form-material-ui": "^4.3.2",
-    "redux-saga": "^0.16.0",
-    "validator": "^9.4.1"
+    "material-ui": "^0.20.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.0",
+    "redux-form-material-ui": "^4.3.4",
+    "redux-saga": "^1.0.2",
+    "validator": "^10.11.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.3.15",
-    "@storybook/addon-console": "^1.0.0",
-    "@storybook/react": "^3.3.15",
-    "storybook-addon-material-ui": "^0.8.2"
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-console": "^1.1.0",
+    "@storybook/react": "^5.0.11",
+    "install-peers": "^1.0.3",
+    "storybook-addon-material-ui": "^0.9.0-alpha.19"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,5 +36,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
